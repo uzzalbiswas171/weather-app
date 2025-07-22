@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:weather_flutter/core/components/custom/weather_text.dart';
+import 'package:weather_app/core/components/custom/weather_text.dart';
 
 class WeatherRadioTile<T> extends StatelessWidget {
   const WeatherRadioTile({super.key, required this.text, required this.value, required this.groupValue, this.onChanged});

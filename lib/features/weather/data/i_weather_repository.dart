@@ -1,4 +1,4 @@
-import 'package:weather_flutter/core/enums/weather_api_uri.dart';
+import 'package:weather_app/core/enums/weather_api_uri.dart';
 
 import '../domain/weather_model.dart';
 

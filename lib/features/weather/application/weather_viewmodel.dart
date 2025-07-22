@@ -1,14 +1,14 @@
 import 'dart:developer';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:weather_flutter/core/enums/localization_keys.dart';
-import 'package:weather_flutter/core/enums/weather_api_uri.dart';
-import 'package:weather_flutter/core/enums/weather_interpretation_codes.dart';
-import 'package:weather_flutter/core/gen/assets.gen.dart';
-import 'package:weather_flutter/core/util/geo_model.dart';
-import 'package:weather_flutter/core/util/location_helper.dart';
-import 'package:weather_flutter/features/weather/application/weather_state.dart';
-import 'package:weather_flutter/features/weather/data/i_weather_repository.dart';
+import 'package:weather_app/core/enums/localization_keys.dart';
+import 'package:weather_app/core/enums/weather_api_uri.dart';
+import 'package:weather_app/core/enums/weather_interpretation_codes.dart';
+import 'package:weather_app/core/gen/assets.gen.dart';
+import 'package:weather_app/core/util/geo_model.dart';
+import 'package:weather_app/core/util/location_helper.dart';
+import 'package:weather_app/features/weather/application/weather_state.dart';
+import 'package:weather_app/features/weather/data/i_weather_repository.dart';
 
 final class WeatherViewModel extends ChangeNotifier {
   final IWeatherRepository weatherRepository;

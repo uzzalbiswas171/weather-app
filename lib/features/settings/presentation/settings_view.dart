@@ -1,13 +1,13 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:weather_flutter/core/components/base/empty_box.dart';
-import 'package:weather_flutter/core/enums/app_languages.dart';
-import 'package:weather_flutter/core/enums/localization_keys.dart';
-import 'package:weather_flutter/core/enums/temperature_unit.dart';
-import 'package:weather_flutter/features/settings/application/settings_view_model.dart';
-import 'package:weather_flutter/features/settings/presentation/language_selector.dart';
-import 'package:weather_flutter/features/settings/presentation/temp_unit_selector.dart';
+import 'package:weather_app/core/components/base/empty_box.dart';
+import 'package:weather_app/core/enums/app_languages.dart';
+import 'package:weather_app/core/enums/localization_keys.dart';
+import 'package:weather_app/core/enums/temperature_unit.dart';
+import 'package:weather_app/features/settings/application/settings_view_model.dart';
+import 'package:weather_app/features/settings/presentation/language_selector.dart';
+import 'package:weather_app/features/settings/presentation/temp_unit_selector.dart';
 
 import '../../../core/components/custom/weather_text.dart';
 import '../../../core/enums/font_weights.dart';

@@ -1,6 +1,6 @@
 import 'package:geolocator/geolocator.dart';
-import 'package:weather_flutter/core/enums/location_status.dart';
-import 'package:weather_flutter/core/util/geo_model.dart';
+import 'package:weather_app/core/enums/location_status.dart';
+import 'package:weather_app/core/util/geo_model.dart';
 
 final class PermissionUtil {
   static Future<LocationInfo> getLocation() async {

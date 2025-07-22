@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:weather_flutter/core/components/base/base_icon_button.dart';
-import 'package:weather_flutter/core/constants/color_constant.dart';
-import 'package:weather_flutter/core/enums/app_navbar_pages.dart';
+import 'package:weather_app/core/components/base/base_icon_button.dart';
+import 'package:weather_app/core/constants/color_constant.dart';
+import 'package:weather_app/core/enums/app_navbar_pages.dart';
 
 class WeatherNavbarButton extends StatefulWidget {
   const WeatherNavbarButton({super.key, required this.page, required this.onPressed});

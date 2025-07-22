@@ -1,5 +1,5 @@
 import 'package:flutter/widgets.dart';
-import 'package:weather_flutter/core/util/geo_model.dart';
+import 'package:weather_app/core/util/geo_model.dart';
 
 enum LocationStatus {
   initial,

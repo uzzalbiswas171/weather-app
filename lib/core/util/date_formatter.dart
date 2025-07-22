@@ -1,4 +1,4 @@
-import 'package:weather_flutter/core/enums/localization_keys.dart';
+import 'package:weather_app/core/enums/localization_keys.dart';
 
 extension DateTimeExtension on DateTime {
   LocalizationKeys? weekdayName({bool todayTextInclude = false}) {

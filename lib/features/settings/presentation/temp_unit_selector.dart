@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:weather_flutter/core/components/custom/weather_radio_tile.dart';
-import 'package:weather_flutter/core/enums/temperature_unit.dart';
+import 'package:weather_app/core/components/custom/weather_radio_tile.dart';
+import 'package:weather_app/core/enums/temperature_unit.dart';
 
 class TempUnitSelector extends StatefulWidget {
   const TempUnitSelector({super.key, required this.onSelected, this.defaultUnit = TemperatureUnit.c});

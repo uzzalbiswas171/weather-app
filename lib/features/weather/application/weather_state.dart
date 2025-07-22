@@ -1,8 +1,8 @@
 import 'package:flutter/widgets.dart';
-import 'package:weather_flutter/core/enums/temperature_unit.dart';
-import 'package:weather_flutter/core/enums/weather_interpretation_codes.dart';
-import 'package:weather_flutter/core/util/unit_converter.dart';
-import 'package:weather_flutter/features/weather/domain/weather_model.dart';
+import 'package:weather_app/core/enums/temperature_unit.dart';
+import 'package:weather_app/core/enums/weather_interpretation_codes.dart';
+import 'package:weather_app/core/util/unit_converter.dart';
+import 'package:weather_app/features/weather/domain/weather_model.dart';
 
 enum WeatherFetchStatus { initial, loading, success, failure }
 

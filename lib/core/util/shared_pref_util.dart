@@ -1,5 +1,5 @@
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:weather_flutter/core/enums/shared_keys.dart';
+import 'package:weather_app/core/enums/shared_keys.dart';
 
 class SharedPrefUtil {
   SharedPrefUtil._();

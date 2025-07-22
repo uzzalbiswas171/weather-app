@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:weather_flutter/core/components/custom/weather_text.dart';
-import 'package:weather_flutter/core/constants/color_constant.dart';
-import 'package:weather_flutter/core/util/size_helper.dart';
-import 'package:weather_flutter/features/weather/application/weather_viewmodel.dart';
+import 'package:weather_app/core/components/custom/weather_text.dart';
+import 'package:weather_app/core/constants/color_constant.dart';
+import 'package:weather_app/core/util/size_helper.dart';
+import 'package:weather_app/features/weather/application/weather_viewmodel.dart';
 
 import '../../../../core/util/location_helper.dart';
 

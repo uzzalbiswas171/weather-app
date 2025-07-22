@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
-import 'package:weather_flutter/core/util/shared_pref_util.dart';
+import 'package:weather_app/core/util/shared_pref_util.dart';
 
 import 'core/util/localization_manager.dart';
 

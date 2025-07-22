@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:weather_flutter/core/components/base/base_text.dart';
-import 'package:weather_flutter/core/enums/font_weights.dart';
-import 'package:weather_flutter/core/gen/fonts.gen.dart';
+import 'package:weather_app/core/components/base/base_text.dart';
+import 'package:weather_app/core/enums/font_weights.dart';
+import 'package:weather_app/core/gen/fonts.gen.dart';
 
 class WeatherText extends StatelessWidget {
   const WeatherText({super.key, required this.text, this.weatherTextWeight = WeatherTextWeight.regular, required this.size, this.color});

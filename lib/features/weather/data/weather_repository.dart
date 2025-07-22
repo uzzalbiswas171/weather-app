@@ -1,9 +1,9 @@
 import 'dart:developer';
 
-import 'package:weather_flutter/core/api/i_api_client.dart';
-import 'package:weather_flutter/core/enums/weather_api_uri.dart';
-import 'package:weather_flutter/features/weather/data/i_weather_repository.dart';
-import 'package:weather_flutter/features/weather/domain/weather_model.dart';
+import 'package:weather_app/core/api/i_api_client.dart';
+import 'package:weather_app/core/enums/weather_api_uri.dart';
+import 'package:weather_app/features/weather/data/i_weather_repository.dart';
+import 'package:weather_app/features/weather/domain/weather_model.dart';
 
 class WeatherRepository implements IWeatherRepository {
   final IApiClient apiClient;

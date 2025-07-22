@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:weather_flutter/core/components/custom/weather_radio_tile.dart';
-import 'package:weather_flutter/core/enums/app_languages.dart';
+import 'package:weather_app/core/components/custom/weather_radio_tile.dart';
+import 'package:weather_app/core/enums/app_languages.dart';
 
 class LanguageSelector extends StatefulWidget {
   const LanguageSelector({super.key, required this.onSelected, this.defaultLang = AppLanguages.en});

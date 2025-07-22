@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:weather_flutter/core/enums/app_languages.dart';
-import 'package:weather_flutter/core/enums/shared_keys.dart';
-import 'package:weather_flutter/core/enums/temperature_unit.dart';
-import 'package:weather_flutter/core/util/localization_manager.dart';
-import 'package:weather_flutter/core/util/shared_pref_util.dart';
+import 'package:weather_app/core/enums/app_languages.dart';
+import 'package:weather_app/core/enums/shared_keys.dart';
+import 'package:weather_app/core/enums/temperature_unit.dart';
+import 'package:weather_app/core/util/localization_manager.dart';
+import 'package:weather_app/core/util/shared_pref_util.dart';
 
 class SettingsViewModel extends ChangeNotifier {
   TemperatureUnit _temperatureUnit = TemperatureUnit.c;

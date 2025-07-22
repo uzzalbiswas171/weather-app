@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:weather_flutter/core/util/size_helper.dart';
+import 'package:weather_app/core/util/size_helper.dart';
 
 class WeatherCard extends StatelessWidget {
   const WeatherCard({super.key, required this.child});
